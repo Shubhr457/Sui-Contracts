@@ -1,9 +1,6 @@
 module 0x0::token {
     // No friend declaration needed
     use sui::coin::{Self, TreasuryCap};
-    use sui::tx_context::{Self, TxContext};
-    use sui::transfer;
-    use std::option;
    
     /// The type identifier of our token - one-time witness type
     public struct TOKEN has drop {}

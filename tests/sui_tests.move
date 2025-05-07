@@ -1,7 +1,7 @@
 #[test_only]
 module 0x0::token_tests {
     use 0x0::token::{Self, TOKEN};
-    use sui::coin::{Self, Coin, TreasuryCap};
+    use sui::coin::{Coin, TreasuryCap};
     use sui::test_scenario::{Self, next_tx, ctx};
     // tx_context is not needed
     
